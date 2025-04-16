@@ -9,9 +9,7 @@ A simple web application for tracking personal finances built with Next.js, Reac
 - Budgeting insights
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/your-username/personal-finance-visualizer.git`
-2. Install dependencies: `npm install`
-3. Run the app: `npm run dev`
+1. Clone the repository: `git clone https://github.com/Himanshupri206/personal-finance-visualizer.git`
 
 ## Technologies
 - Next.js
