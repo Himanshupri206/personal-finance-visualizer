@@ -1,0 +1,16 @@
+import mongoose from 'mongoose';
+
+/**
+ * Schema for storing transaction details.
+ * Each transaction includes an amount, description, and the date of the transaction.
+ */
+const transactionSchema = new mongoose.Schema({
+  amount: { type: Number, required: true },  // Transaction amount (required)
+  date: { type: Date, required: true },     // Date when the transaction occurred (required)
+  description: { type: String, required: true },  // Short description of the transaction (required)
+});
+
+// Create or retrieve the Transaction model
+const Transaction = mongoose.models.Transaction || mongoose.model('Transaction', transactionSchema);
+
+export default Transaction;
